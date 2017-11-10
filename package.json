@@ -1,0 +1,27 @@
+{
+  "name": "mp_servicio",
+  "version": "1.0.0",
+  "description": "Servicio que atiende las peticiones correspondientes a MercadoPago",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfedelopez/mp_servicio.git"
+  },
+  "author": "Federico Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfedelopez/mp_servicio/issues"
+  },
+  "homepage": "https://github.com/mfedelopez/mp_servicio#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.1"
+  }
+}
